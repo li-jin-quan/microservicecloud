@@ -1,0 +1,18 @@
+package com.atguigu.springcloud.cfgbeans.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.atguigu.springcloud.entites.Dept;
+
+@RestController
+public class DeptControllerConsumer {
+
+	@Autowired
+	private RestTemplate restTemplate;
+	public Dept get(@PathVariable int id) {
+		return 
+	}
+}

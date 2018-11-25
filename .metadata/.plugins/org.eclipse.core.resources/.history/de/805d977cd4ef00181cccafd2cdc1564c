@@ -1,0 +1,10 @@
+package com.atguigu.springcloud.cfgbeans;
+
+import org.springframework.web.client.RestTemplate;
+
+public class ConfigBean {
+
+	public RestTemplate name() {
+		return new RestTemplate();
+	}
+}
