@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="microservicecloud-provider-dept-8001"/>
+<aop-project name="microservicecloud-eureka-7002"/>
+<aop-project name="microservicecloud-eureka-7003"/>
 <aop-project name="microservicecloud-consumer-dept-80"/>
-<aop-project name="microservice-eureka-7001"/>
 <aop-project name="microservicecloud-api"/>
 </aop-reference-model>

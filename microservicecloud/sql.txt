@@ -1,0 +1,14 @@
+DROP DATABASE
+IF
+	EXISTS cloudDB02;
+CREATE DATABASE cloudDB02 CHARACTER 
+SET UTF8;
+USE cloudDB02;
+CREATE TABLE dept ( deptno BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT, dname VARCHAR ( 60 ), db_source VARCHAR ( 60 ) );
+INSERT INTO `dept` VALUES (1, '开发部', 'clouddb02');
+INSERT INTO `dept` VALUES (2, '人事部', 'clouddb02');
+INSERT INTO `dept` VALUES (3, '财务部', 'clouddb02');
+INSERT INTO `dept` VALUES (4, '市场部', 'clouddb02');
+INSERT INTO `dept` VALUES (5, '运维部', 'clouddb02');
+INSERT INTO `dept` VALUES (6, '开发部', 'clouddb02');
+INSERT INTO `dept` VALUES (7, '大数据部', 'clouddb02');
